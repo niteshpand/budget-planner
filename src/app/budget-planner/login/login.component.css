@@ -6,7 +6,6 @@ body {
 }
 .navbar {
   background: linear-gradient(135deg, #008080, #80ced6);
-  margin-top: 10px;
   padding: 10px 20px;
   display: flex;
   justify-content: center;
