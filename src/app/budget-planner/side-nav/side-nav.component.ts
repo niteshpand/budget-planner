@@ -15,8 +15,16 @@ export class SideNavComponent {
   toggleSlideOut() {
     this.isSlideOut = !this.isSlideOut;
   }
-  onDash() {}
-  onProfile() {}
-  onHistory() {}
-  onLogout() {}
+  onDash() {
+    this.route.navigate(['budget-planner/dashboard']);
+  }
+  onProfile() {
+    this.route.navigate(['budget-planner/profile']);
+  }
+  onHistory() {
+    this.route.navigate(['budget-planner/history']);
+  }
+  onLogout() {
+    this.route.navigate(['budget-planner/login']);
+  }
 }
